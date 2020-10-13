@@ -47,8 +47,10 @@
     }
 }
 @import "./base/variables";
+@import "./base/mixin";
 @import "./blocks/header";
 @import "./blocks/promo";
 @import "./blocks/reasons";
 @import "./blocks/mobile";
 @import "./blocks/choice";
+@import "./blocks/require";

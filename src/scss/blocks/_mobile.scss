@@ -53,5 +53,29 @@
         left: 50%;
         transform: translateX(-50%);
         cursor: pointer;
+        &:before{
+            content: '';
+            display: block;
+            width: 14px;
+            height: 2px;
+            background-color: $main-color;
+            transition: 0.3 all;
+        }
+        &:after{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            content: '';
+            display: block;
+            width: 2px;
+            height: 14px;
+            background-color: $main-color;
+            transition: 0.3 all;
+        }
+        &:hover{
+            &:before, &:after{
+                background-color: $second-color;
+            }
+        }
     }
 }

@@ -1,0 +1,55 @@
+.require{
+    padding: 68px 0 84px 0;
+    &__block{
+        margin: 33px 0;
+        &_nmb{
+            margin-bottom: 0px;
+        }
+    }
+    &__title{
+        font-weight: 400;
+        font-size: 22px;
+        color: #1ca8c3;
+    }
+    &__list{
+        list-style-type: none;
+        padding-left: 50px;
+        margin-top: 22px;
+        li{
+            position: relative;
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 24px;
+            margin-bottom: 10px;
+            &:before{
+                content: '';
+                display: block;
+                position: absolute;
+                left: -32px;
+                top: 3px;
+                width: 21px;
+                height: 20px;
+                background: url(../icons/check_blue.svg) center (center/cover) no-repeat;
+            }
+        }
+    }
+    &__descr{
+        color: #1CA8C3;
+        font-size: 17px;
+        font-weight: 300;
+        margin-top: 25px;
+        line-height: 24px;
+    }
+    .warning{
+        .require__title{
+            color: $second-color;
+        }
+        .require__list{
+            li{
+                &:before{
+                    background: url(../icons/check_red.svg) center (center/cover) no-repeat;
+                }
+            }
+        }
+    }
+}
