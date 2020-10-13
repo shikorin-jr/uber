@@ -13,7 +13,7 @@
         margin-right: 26px;
         width: 113px;
         height: 113px;
-        background-color: #1eacc7;
+        background-color: $main-color;
         border-radius: 100%;
     }
     &__descr{
@@ -21,7 +21,7 @@
     }
 	&__subtitle{
         line-height: 21px;
-		color: #1eacc7;
+		color: $main-color;
 		font-size: 17px;
 		font-weight: 400;
     }	
