@@ -3,6 +3,7 @@
 };
 
 .label{
+    position: relative;
     margin: 0 auto;
     height: 24px;
     width: 112px;
@@ -13,12 +14,14 @@
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
+    z-index: 2;
     &__white{
         background-color: #fff;
         color: #000;
     }
 }
 .title{
+    position: relative;
     margin-bottom: 0;
     margin-top: 38px;
     color: #222222;
@@ -26,16 +29,19 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    z-index: 2;
     &__white{
         color: #fff;
     }
 }
 .subtitle{
+    position: relative;
     margin-top: 19px;
     color: #222222;
     font-size: 17px;
     font-weight: 400;
     text-align: center;
+    z-index: 2;
     &__white{
         color: #fff;
     }
