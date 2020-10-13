@@ -2,6 +2,36 @@
     font-family: 'Roboto', sans-serif;
 };
 
+.label{
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+.title{
+    margin-bottom: 0;
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.subtitle{
+    margin-top: 19px;
+    color: #222222;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+
 @import "./blocks/header";
 @import "./blocks/promo";
 @import "./blocks/reasons";
+@import "./blocks/mobile";
