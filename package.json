@@ -1,5 +1,5 @@
 {
-  "name": "project",
+  "name": "uber",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shikorin-jr/project.git"
+    "url": "git+https://github.com/shikorin-jr/uber.git"
   },
   "author": "Alex",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shikorin-jr/project/issues"
+    "url": "https://github.com/shikorin-jr/uber/issues"
   },
-  "homepage": "https://github.com/shikorin-jr/project#readme",
+  "homepage": "https://github.com/shikorin-jr/uber#readme",
   "devDependencies": {
     "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
