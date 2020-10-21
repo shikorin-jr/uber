@@ -19,6 +19,9 @@
         background-color: #fff;
         color: #000;
     }
+    &__min{
+        width: 76px
+    }
 }
 .title{
     position: relative;
@@ -54,3 +57,5 @@
 @import "./blocks/mobile";
 @import "./blocks/choice";
 @import "./blocks/require";
+@import "./blocks/world";
+@import "./blocks/footer";
